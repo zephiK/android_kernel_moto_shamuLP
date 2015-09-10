@@ -41,7 +41,7 @@ function make_kernel {
 		make $DEFCONFIG
 		make $THREAD
 		cp -vr $ZIMAGE_DIR/$KERNEL $REPACK_DIR/kernel
-		mv ${HOME}/AOSP/kernel/shamu/arch/arm/boot/zImage-dtb ${HOME}/Android/Kernel/hC-N6-anykernel-ZEN/kernel/zImage
+		mv ${HOME}/AOSP/kernel/shamu/arch/arm/boot/zImage-dtb ${HOME}//AOSP/kernel/shamu/arch/arm/boot/zImage
 }
 
 function make_zip {
